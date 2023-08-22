@@ -1,0 +1,121 @@
+{
+  "REQUEST-URL-COMMENT": "https://apiv3.fansly.com/api/v1/account/settings",
+  
+  "success": true,
+  "response": {
+      "accountId": "1234567890",
+      "categories": [
+          {
+              "name": "display",
+              "inputs": []
+          },
+          {
+              "name": "explore",
+              "inputs": []
+          },
+          {
+              "name": "payments",
+              "inputs": []
+          },
+          {
+              "name": "profile",
+              "inputs": [
+                  {
+                      "type": 3,
+                      "name": "hideFromSearch",
+                      "data": "{\"key\":\"hideFromSearch\",\"value\":false}"
+                  },
+                  {
+                      "type": 3,
+                      "name": "hideAge",
+                      "data": "{\"key\":\"hideAge\",\"value\":false}"
+                  },
+                  {
+                      "type": 4,
+                      "name": "gender",
+                      "data": "{\"options\":[\"rather not say\",\"male\",\"female\",\"trans\",\"other\"],\"value\":0}"
+                  },
+                  {
+                      "type": 4,
+                      "name": "orientation",
+                      "data": "{\"options\":[\"rather not say\",\"straight\",\"gay\",\"lesbian\",\"bi\",\"other\"],\"value\":0}"
+                  },
+                  {
+                      "type": 4,
+                      "name": "bodyType",
+                      "data": "{\"options\":[\"rather not say\",\"other\"],\"value\":0}"
+                  }
+              ]
+          },
+          {
+              "name": "notifications",
+              "inputs": [
+                  {
+                      "type": 3,
+                      "name": "muteSubscriptionCreate",
+                      "data": "{\"key\":\"muteSubscriptionCreate\",\"value\":false}",
+                      "label": "Mute new subscription notifications"
+                  },
+                  {
+                      "type": 3,
+                      "name": "muteSubscriptionRenew",
+                      "data": "{\"key\":\"muteSubscriptionRenew\",\"value\":false}",
+                      "label": "Mute subscription renewal notifications"
+                  },
+                  {
+                      "type": 3,
+                      "name": "muteSubscriptionChange",
+                      "data": "{\"key\":\"muteSubscriptionChange\",\"value\":false}",
+                      "label": "Mute subscription change notifications"
+                  },
+                  {
+                      "type": 3,
+                      "name": "muteSubscriptionCancel",
+                      "data": "{\"key\":\"muteSubscriptionCancel\",\"value\":false}",
+                      "label": "Mute subscription cancellation notifications"
+                  },
+                  {
+                      "type": 3,
+                      "name": "muteTipCreate",
+                      "data": "{\"key\":\"muteTipCreate\",\"value\":false}",
+                      "label": "Mute tip notifications"
+                  },
+                  {
+                      "type": 3,
+                      "name": "muteMediaOrderCreate",
+                      "data": "{\"key\":\"muteMediaOrderCreate\",\"value\":false}",
+                      "label": "Mute media order notifications"
+                  },
+                  {
+                      "type": 3,
+                      "name": "muteMediaLikeCreate",
+                      "data": "{\"key\":\"muteMediaLikeCreate\",\"value\":false}",
+                      "label": "Mute media like notifications"
+                  },
+                  {
+                      "type": 3,
+                      "name": "mutePostLikeCreate",
+                      "data": "{\"key\":\"mutePostLikeCreate\",\"value\":false}",
+                      "label": "Mute post like notifications"
+                  }
+              ]
+          },
+          {
+              "name": "account",
+              "inputs": [
+                  {
+                      "type": 1,
+                      "name": "displayName",
+                      "data": "{\"key\":\"displayName\",\"value\":\"Name\"}"
+                  },
+                  {
+                      "type": 1,
+                      "name": "email",
+                      "data": "{\"key\":\"email\",\"value\":\"email@gmail.com\"}"
+                  }
+              ]
+          }
+      ]
+  }
+}
+
